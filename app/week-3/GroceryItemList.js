@@ -1,6 +1,8 @@
 import React from "react";
 import GroceryItem from "./GroceryItem";
 
+
+export default function GroceryItemList(){
 const item1 = {
   name: "milk, 4 L 🥛",
   quantity: 1,
@@ -71,4 +73,22 @@ const item12 = {
   name: "hand soap 🧼",
   quantity: 4,
   category: "household",
-};
+}; 
+
+return(
+    <ul className="w-full max-w-xl bg-black text-whi  rounded shadow p-4">
+        <GroceryItem {...item1} />
+        <GroceryItem {...item2} />
+        <GroceryItem {...item3} />
+        <GroceryItem {...item4} />
+        <GroceryItem {...item5} />
+        <GroceryItem {...item6} />
+        <GroceryItem {...item7} />
+        <GroceryItem {...item8} />
+        <GroceryItem {...item9} />
+        <GroceryItem {...item10} />
+        <GroceryItem {...item11} />
+        <GroceryItem {...item12} />
+</ul>
+)
+}
