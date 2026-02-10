@@ -10,6 +10,7 @@ export default function Page(){
         <Link href="week-2" className="text-center"> Week 2 Assignment </Link>
         <Link href="week-3" className="text-center"> Week 3 Assignment </Link>
         <Link href="week-4" className="text-center"> Week 4 Assignment </Link>
+        <Link href="practice-challenges" className="text-center">Practice</Link>
       </ul>
     </main>
     </div>

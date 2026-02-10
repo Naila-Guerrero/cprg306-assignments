@@ -10,9 +10,8 @@ export default function Header(){
                 </span>
             </Link>
             <Link href="https://github.com/Naila-Guerrero/cprg306-assignments">
-            <img className="rounded-full size-[55] hover:border-[#442b63]" src="/lemres.jpeg" alt="github image"/>
+            <img className="rounded-full size-[55] hover:border-[#442b63]" src="public/lemres.jpeg" alt="github image"/>
             </Link>
         </div>
     )
 }
-
